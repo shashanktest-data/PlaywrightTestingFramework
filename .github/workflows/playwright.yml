@@ -18,7 +18,7 @@ jobs:
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
     - name: Run sanity tests
-      run: npx run test:sanity
+      run: npm run test:sanity
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
       with:
