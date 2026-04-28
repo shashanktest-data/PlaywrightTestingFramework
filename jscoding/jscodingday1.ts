@@ -31,3 +31,7 @@ console.log("missing num",misisngnum)
 let num2=[10,20,30,30]
 const set1=new Set(num2)
 console.log("remove dup ele from array",set1)
+
+let arr=[10,20,4,1];
+arr.sort((a,b)=>a-b)
+console.log(arr)

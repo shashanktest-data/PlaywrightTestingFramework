@@ -10,7 +10,7 @@ import {OrderDetailsPage} from "../../pom/OrderDetailsPage"
 import {TestConfig} from "../../test.config"
 //const productName="ADIDAS ORIGINAL"
 for(const data1 of singleuserrsalogin){
-test(`Add product to cart for testingg ${data1.username}`,async({page})=>{
+test(`@sanity Add product to cart for testingg ${data1.username}`,async({page})=>{
 
 const config=new TestConfig();
 const productName=config.productName;
