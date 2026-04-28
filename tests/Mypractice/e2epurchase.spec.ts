@@ -13,7 +13,7 @@ for(const data1 of singleuserrsalogin){
 test(`Add product to cart for testingg ${data1.username}`,async({page})=>{
 
 const config=new TestConfig();
-const productName=config.productName
+const productName=config.productName;
 const lp=new LoginPage(page)
 //const cp=new CartPage(page)
 await lp.goToUrl();
