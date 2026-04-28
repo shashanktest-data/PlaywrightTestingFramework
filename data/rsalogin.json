@@ -1,0 +1,18 @@
+[
+
+
+
+    {"username":"testjoy@gmail.com",
+      "password":"Abc1@345",
+      "state":"passed"
+    
+    
+    },
+
+     {"username":"testjoy1@gmail.com",
+      "password":"Abc1@345",
+      "state":"failed"
+    
+    
+    }
+]
