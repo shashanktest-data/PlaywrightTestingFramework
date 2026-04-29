@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('handle dynamic web table', async ({ page }) => {
+test('@master handle dynamic web table', async ({ page }) => {
   await page.goto('https://practice.expandtesting.com/dynamic-table');
 
   // Expect a title "to contain" a substring.
@@ -42,7 +42,7 @@ test('handle dynamic web table', async ({ page }) => {
  
 });
 
-test("2nd assignment",async({page})=>{
+test("@regression 2nd assignment",async({page})=>{
 let memory="";
     await page.goto("https://testautomationpractice.blogspot.com/");
         const table=page.locator("#taskTable tbody");

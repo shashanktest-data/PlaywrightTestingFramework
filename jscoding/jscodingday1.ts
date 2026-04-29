@@ -34,4 +34,10 @@ console.log("remove dup ele from array",set1)
 
 let arr=[10,20,4,1];
 arr.sort((a,b)=>a-b)
-console.log(arr)
+console.log("arr in asec order",arr)
+arr.sort((a,b)=>b-a)
+console.log("arr in desc order",arr)
+
+let fruit=["apple","mango","Banana"]
+fruit.sort()
+console.log("string in sort",fruit)
