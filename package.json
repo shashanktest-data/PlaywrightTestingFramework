@@ -7,7 +7,8 @@
 
     "test:e2e:allurereport":"Remove-Item -Recurse -Force allure-results; npx playwright test tests/Mypractice/e2epurchase.spec.ts --project=chromium --headed; allure serve allure-results",
    "test:sanity": "playwright test --grep @sanity --project=chromium",
-  "test:api": "playwright test --project=api"
+   "test:master": "playwright test --grep @master --project=chromium",
+   "test:regression": "playwright test --grep @regression --project=chromium"
   },
   "keywords": [],
   "author": "",
